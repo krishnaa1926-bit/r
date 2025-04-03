@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Anniversary, Riddhi!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #ffe6e6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            animation: fadeIn 2s ease-in;
+        }
+        
+        
+        header {
+            background-color: #ff9999;
+            padding: 20px;
+            font-size: 24px;
+            color: white;
+            animation: slideDown 1.5s ease-in-out;
+        }
+        section {
+            margin: 20px;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeInUp 1.5s ease-out forwards;
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+        section:hover {
+            transform: scale(1.02);
+            box-shadow: 0 0 15px rgba(255, 105, 135, 0.5);
+        }
+        .slideshow-container {
+            position: relative;
+            max-width: 300px;
+            margin: auto;
+        }
+        .slides {
+            display: none;
+            width: 100%;
+            border-radius: 10px;
+        }
+      
+        
+        .card {
+            background: #ff9999;
+            color: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            max-width: 90%;
+            margin: 20px auto;
+            text-align: left;
+            animation: fadeInUp 1.5s ease-out forwards;
+            display: none;
+        }
+        button {
+            background-color: #ff6699;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+        button:hover {
+            background-color: #e05588;
+            transform: scale(1.05);
+        }
+        .password-container {
+            background: #fff3f3;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(255, 105, 135, 0.5);
+            display: inline-block;
+            margin-top: 20px;
+            animation: fadeIn 1.5s ease-in-out;
+            transition: transform 0.3s ease-in-out;
+            width: 90%;
+            max-width: 300px;
+        }
+        .password-container:hover {
+            transform: scale(1.05);
+        }
+        input[type="password"] {
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 5px;
+            border: 1px solid #ff6699;
+            text-align: center;
+            transition: all 0.3s ease-in-out;
+            width: 90%;
+            max-width: 150px;
+        }
+        input[type="password"]:focus {
+            border-color: #ff3366;
+            box-shadow: 0 0 10px rgba(255, 51, 102, 0.5);
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes slideDown {
+            from { transform: translateY(-50px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+     <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
+    <script>
+        function checkPassword() {
+            var password = document.getElementById("password").value;
+            if (password === "rishna") {
+                document.getElementById("letter").style.display = "block";
+                document.getElementById("password-container").style.display = "none";
+                const jsConfetti = new JSConfetti();
+                jsConfetti.addConfetti();
+            } else {
+                alert("Incorrect password! Try again.");
+            }
+        }
+        let slideIndex = 0;
+        function showSlides() {
+            let slides = document.getElementsByClassName("slides");
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) { slideIndex = 1; }
+            slides[slideIndex - 1].style.display = "block";
+            setTimeout(showSlides, 2000);
+        }
+        document.addEventListener("DOMContentLoaded", showSlides);
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Happy first Anniversary, Riddhi! ❤️</h1>
+    </header>
+    <section>
+        <h1>Our Story</h1>
+        <p1><b>Our Beautiful Journey</b><br><br>
+
+            It all started in March 2022—a day that, at the time, felt simple, but looking back, it was the beginning of something truly special. I still remember how stunning you looked in your pink top and blue denim, and how effortlessly we connected. We met at Care, ordered a sandwich, a brownie, and some fries, but it wasn’t really about the food. It was about the way we talked, the way we laughed, and how natural everything felt between us.
+            
+            Later, we went to Meherun Lake, and that moment still stays with me. There was something so peaceful about just being there with you. It wasn’t about grand gestures; it was about the comfort and ease of being in each other’s presence. Even then, I think a part of me knew that you were going to be someone incredibly special in my life.
+            
+            As time passed, my feelings for you grew stronger. Every conversation, every little moment we shared made me realize how much I admired you—not just for your kindness and warmth but for the way you understood me without me even having to say a word. You became my safe space, my happiness, and the person I looked forward to talking to every day.
+            
+            Then came April 4, 2024—the day that changed everything. The early morning when you accepted me as your life partner will always be etched in my heart. That moment was beyond words, beyond anything I had ever felt before. It felt like my entire world had just fallen into place. You chose me, and that made me feel like the luckiest person alive.
+            
+            Since then, every single day with you has been a blessing. You, with your beautiful Gujarati charm, have filled my life with love and joy in a way no one else ever could. Whether it’s in the big moments or the quiet ones, everything with you just feels right.
+            
+            As we celebrate our first anniversary, I can’t help but look back at our journey with a heart full of gratitude. We’ve come so far, and I know this is just the beginning of a lifetime of love, laughter, and endless memories together.</p1>
+    </section>
+    <section class="gallery">
+        <h2>Memorable Moments</h2>
+        <div class="slideshow-container">
+            <img class="slides" src="IMG-20250301-WA0007.jpg" alt="Memorable Moment 1">
+            <img class="slides" src="IMG-20250301-WA0008.jpg" alt="Memorable Moment 2">
+            <img class="slides" src="IMG-20250301-WA0009.jpg" alt="Memorable Moment 2"> 
+            <img class="slides" src="IMG-20250301-WA0010.jpg" alt="Memorable Moment 2">
+            <img class="slides" src="IMG-20250301-WA0011.jpg" alt="Memorable Moment 2">
+            <img class="slides" src="IMG-20250301-WA0012.jpg" alt="Memorable Moment 2">
+            <img class="slides" src="IMG-20250301-WA0013.jpg" alt="Memorable Moment 2">
+            <img class="slides" src="IMG-20250301-WA0014.jpg" alt="Memorable Moment 2">
+            <img class="slides" src="IMG-20250301-WA0015.jpg" alt="Memorable Moment 2">
+            <img class="slides" src="IMG-20250301-WA0016.jpg" alt="Memorable Moment 2">
+            <img class="slides" src="IMG-20250301-WA0017.jpg" alt="Memorable Moment 2">
+            <img class="slides" src="IMG-20250301-WA0018.jpg" alt="Memorable Moment 2">
+            <img class="slides" src="IMG-20250301-WA0021.jpg" alt="Memorable Moment 2">
+
+        </div>
+    </section>
+    <section>
+        <h2>A Special Letter for You</h2>
+        <div id="password-container" class="password-container">
+            <label for="password">💖 Enter the secret code to reveal your surprise 💖</label>
+            <input type="password" id="password" placeholder="🔒 Secret Code">
+            <button onclick="checkPassword()">🔓 Unlock</button>
+        </div>
+        <div id="letter" class="card">
+            <p><strong>My Love Riddhi,</strong></p>
+            <p>My Love, Riddhi,
+
+                Happy anniversary, my love! April 4th will always be the most special day of my life—the day you accepted me as your life partner. That moment felt like magic, as if the universe had aligned perfectly to bring us together. It still feels surreal that I get to call you mine, and I will forever cherish the love we share. Every moment since then has been filled with happiness, warmth, and the kind of love that only you can bring into my life.<br><br>
+                
+                I still remember the first time we spent together—the way you looked in your pink top and blue denim, the way we shared that sandwich, brownie, and fries at Care, and the peaceful, unforgettable time we spent at Meherun Lake. That day was simple yet so special, a glimpse of the wonderful journey we were about to embark on. Little did we know that those small moments would turn into the foundation of a love so deep and pure.<br><br>
+                
+                Riddhi, you are my greatest blessing, my source of strength, my endless joy, and my truest love. Your presence fills my life with light and happiness. Your smile is my comfort on the toughest days, and your laughter is the sweetest melody my heart knows. The way you understand me, support me, and love me is something I could never have dreamed of, yet here you are—my dream come true. Every single day with you feels like a beautiful new chapter, and I want to keep writing this love story with you forever.<br><br>
+                
+                As we celebrate our first anniversary, I want you to know that my love for you only deepens with each passing moment. I promise to stand by your side through every joy and challenge, to cherish and honor you, and to make sure that you always feel as loved as you truly are. Thank you for choosing me, for loving me so wholeheartedly, and for being the most incredible person I have ever known. I am beyond grateful to have you in my life, and I cannot wait to create countless more beautiful memories together.<br><br>
+                
+                Happy anniversary, my love! Here’s to us, to our journey, and to a lifetime of love and happiness.<br><br>
+                
+                Yours forever, <br><b>KRISHNA</b></p>
+        </div>
+    </section>
+</body>
+</html>
